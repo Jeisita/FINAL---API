@@ -1,0 +1,13 @@
+###
+
+POST http://localhost:9000/api/Libros HTTP/1.1
+Content-Type: application/json
+
+{
+    "NombreLibro": "Mi Primer Intento de Api",
+    "Autor":"Ángela Ramírez",
+    
+    "AñoPublicacion":"2024",
+    "Existencias":1,
+    "Categoria":"Tengo miedo"
+}
